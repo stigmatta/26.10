@@ -13,16 +13,20 @@
 .aside-one-left{
     float:left;
     width:350px;
-    height:100px;
+    height: 40%;
+    position: relative;
+    bottom: 15px;
     line-height: 100px;
     padding-left: 40px;
     background-color: rgb(201, 107, 159);
 }
 .aside-two-left {
     float: left;
+    height: 40%;
     display: block;
+    position: relative;
+    bottom: 15px;
     width: 350px;
-    height: 200px;
     line-height: 170px;
     padding-left: 40px;
     margin-top:16px;
@@ -30,6 +34,7 @@
 }
 .two-asides{
     width: 30%;
+    height:100%;
 }
 .aside-three-right {
     float: right;
