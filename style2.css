@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(36, 36, 85);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    margin-top: 40px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+ul li:hover {
+    text-decoration: underline;
+}
+
+.first-row,
+.second-row,
+.third-row {
+    display: inline;
+    float: left;
+    margin-left: 150px;
+}
+
+.third-row {
+    margin-top: 60px;
+}
+
+.facebook img:hover,
+.youtube img:hover,
+.insta img:hover {
+    z-index: 1;
+}
+
+.facebook img:hover,
+.youtube img:hover,
+.insta img:hover {
+    z-index: 1;
+}
+
+.facebook img:hover {
+    content: url("fb.png");
+}
+
+.youtube img:hover {
+    content: url('youtube.png');
+}
+
+.insta img:hover {
+    content: url('insta.png');
+}
